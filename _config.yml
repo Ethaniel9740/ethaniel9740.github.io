@@ -2,14 +2,14 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
-# Site
-title: Hexo
+# ÍøÕ¾×ÊÁÏ
+title: Ethaniel
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: Ethaniel
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -104,3 +104,8 @@ deploy:
   type: git
   repository: git@github.com:Ethaniel9740/ethaniel9740.github.io.git
   branch: main
+
+search:
+  path: search.xml
+  field: post
+  content: true
