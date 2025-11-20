@@ -77,7 +77,7 @@ disable_top_img: false
 default_top_img:
 
 # 主页的横幅图片
-index_img: https://source.fomal.cc/img/default_cover_2.webp
+index_img: https://source.fomal.cc/img/dm2.webp
 
 # 文档页的横幅图片
 archive_img:
@@ -99,12 +99,12 @@ category_img:
 category_per_img:
 
 # 页脚的背景图片
-footer_img: https://source.fomal.cc/img/default_cover_2.webp
+footer_img: https://source.fomal.cc/img/dm2.webp
 
 # 网站背景
 # 可以设置为颜色或图片
 # 图片格式: http://xxxxxx.com/xxx.jpg
-background: https://source.fomal.cc/img/default_cover_2.webp
+background: https://source.fomal.cc/img/dm2.webp
 
 # 封面設置
 cover:
@@ -374,7 +374,9 @@ aside:
     # 是否显示公告卡片
     enable: true
     # 公告内容
-    content: 这是我的博客
+    content: 我是船长Ethaniel，欢迎登船。
+             这里专注于 C语言 与 程序员成长。我将每周分享实战航标与避坑经验。
+             以你所需，供我所学，让我们在这片海域共同前行。
   card_recent_post:
     # 是否显示最近文章卡片
     enable: true
@@ -530,7 +532,7 @@ copy:
 # 需要安装 hexo-wordcount 插件
 wordcount:
   # 是否启用字数统计
-  enable: false
+  enable: true
   # 在文章元信息中显示字数统计
   post_wordcount: true
   # 在文章元信息中显示阅读时间
@@ -832,7 +834,7 @@ crisp:
 
 # 百度统计配置
 # 官方网站：https://tongji.baidu.com/web/welcome/login
-baidu_analytics: 5ea2776e682b00edeca8dfa82126dce8
+baidu_analytics: c42b93a23578f1a6644ac1b5dd4946db
 
 # 谷歌分析配置
 # 官方网站：https://analytics.google.com/analytics/web/
@@ -1178,7 +1180,7 @@ note:
 # https://github.com/MoOx/pjax
 pjax:
   # 是否启用 pjax
-  enable: false
+  enable: true
   # 排除指定页面不使用 pjax，如'/music/'
   exclude:
     # - /xxxxxx/
@@ -1186,7 +1188,7 @@ pjax:
 # 注入 CSS 和脚本(aplayer/meting)
 aplayerInject:
   # 是否启用注入
-  enable: false
+  enable: true
   # 是否每页启用
   per_page: true
 
@@ -1223,15 +1225,15 @@ lazyload:
 # ---------------
 pwa:
   # 是否启用 PWA
-  enable: false
+  enable: true
   # PWA manifest 文件路径
   manifest:
   # Apple Touch 图标路径
   apple_touch_icon:
   # 32x32 像素的 favicon 图标路径
-  favicon_32_32:
+  favicon_32_32: https://i.postimg.cc/GtWwDsYB/c7a6e826-f046-4e48-90ba-56439b1d8e2c.png
   # 16x16 像素的 favicon 图标路径
-  favicon_16_16:
+  favicon_16_16: https://i.postimg.cc/GtWwDsYB/c7a6e826-f046-4e48-90ba-56439b1d8e2c.png
   # mask 图标路径
   mask_icon:
 
@@ -1265,10 +1267,9 @@ css_prefix: true
 # 插入代码到 head（在'</head> ' 标签之前）和底部（在'</body> ' 标签之前）
 inject:
   head:
-    # - <link rel="stylesheet" href="/xxx.css">
+    - '<style type="text/css">#toggle-sidebar {bottom: 80px}</style>'
   bottom:
-    # - <script src="xxxx"></script>
-
+    - <div class="aplayer no-destroy" data-id="17459984338" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-lrcType="-1"> </div>
 # CDN 设置
 # 除非你知道它们的工作原理，否则不要修改以下设置
 CDN:
@@ -1286,6 +1287,7 @@ CDN:
   # 例如： https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
   custom_format:
 
+  
   option:
     # abcjs_basic_js:
     # activate_power_mode:

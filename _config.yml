@@ -2,8 +2,8 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
-# ��վ����
-title: Ethaniel
+# 网站资料
+title: Ethaniel 
 subtitle: ''
 description: ''
 keywords:
@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://www.ethaniel.cn
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -109,3 +109,21 @@ search:
   path: search.xml
   field: post
   content: true
+
+aplayer:
+  asset_inject: false
+  meting: true
+
+douban:
+  id: 248433885
+  builtin: true
+  movie:
+    title: '那些年，我追过的电影'
+    quote:  '过去、现在、和未来'
+    meta: true
+    comments: true
+    movies_img: https://gitee.com/dulily/cdn/raw/master/img/me.jpg
+    aside: true
+    path: movies
+    limit:
+  timeout: 10000
