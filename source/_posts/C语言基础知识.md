@@ -1,7 +1,7 @@
 ---
 title: C语言基础知识
-date: 2023-01-02 00:00:00
-updated: 2023-01-02 00:00:00
+date: 2023-01-04 00:00:00
+updated: 2023-01-04 00:00:00
 categories: 'C'
 copyright_author: Ethaniel
 

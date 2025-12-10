@@ -1,23 +1,30 @@
-- class_name: 友情链接
-  class_desc: 那些人，那些事
+- class_name: 技术支持
+  class_desc: 感谢以下框架以及开源地址的技术支持
   link_list:
     - name: Hexo
       link: https://hexo.io/zh-tw/
       avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
       descr: 快速、简单且强大的日志框架
-
-- class_name: 网站
-  class_desc: 值得推荐的网站
-  link_list:
-    - name: Youtube
-      link: https://www.youtube.com/
-      avatar: https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png
-      descr: 视频网站
-    - name: Weibo
-      link: https://www.weibo.com/
-      avatar: https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png
-      descr: 中国最大的社交网站
-    - name: X
-      link: https://x.com/home
-      avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
-      descr: 社交分享平台
+    - name: butterfly
+      link: https://butterfly.js.org/
+      avatar: https://butterfly.js.org/img/butterfly-icon.png
+      descr: butterfly主题开发者
+    - name: Fomalhaut
+      link: https://www.fomal.cc/
+      avatar: https://sourcebucket.s3.bitiful.net/img/avatar.webp
+      descr: butterfly美化先行者
+##- class_name: 网站
+#  class_desc: 值得推荐的网站
+#   - name: Youtube
+#     link: https://www.youtube.com/
+#      avatar: https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png
+#      descr: 视频网站
+#    - name: Weibo
+#      link: https://www.weibo.com/
+#      avatar: https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png
+#      descr: 中国最大的社交网站
+#    - name: X
+#      link: https://x.com/home
+#      avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
+#
+#      descr: 社交分享平台

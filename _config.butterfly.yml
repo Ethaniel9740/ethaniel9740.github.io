@@ -19,7 +19,7 @@ menu:
   清单||fas fa-list:
     音乐: /music/ || fas fa-music
     电影: /movies/ || fas fa-video
-  友链: /link/ || fas fa-link
+  友人帐: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
 
 # --------------------------------------
@@ -125,11 +125,7 @@ cover:
      - https://source.fomal.cc/img/default_cover_4.webp
      - https://source.fomal.cc/img/default_cover_5.webp
      - https://source.fomal.cc/img/default_cover_6.webp
-     - https://source.fomal.cc/img/default_cover_7.webp
      - https://source.fomal.cc/img/default_cover_8.webp
-     - https://source.fomal.cc/img/default_cover_9.webp
-     - https://source.fomal.cc/img/default_cover_10.webp
-     - https://source.fomal.cc/img/default_cover_11.webp
      - https://source.fomal.cc/img/default_cover_12.webp
      - https://source.fomal.cc/img/default_cover_13.webp
      - https://source.fomal.cc/img/default_cover_14.webp
@@ -139,6 +135,24 @@ cover:
      - https://source.fomal.cc/img/default_cover_18.webp
      - https://source.fomal.cc/img/default_cover_19.webp
      - https://source.fomal.cc/img/default_cover_20.webp
+     - https://source.fomal.cc/img/default_cover_21.webp
+     - https://source.fomal.cc/img/default_cover_22.webp
+     - https://source.fomal.cc/img/default_cover_24.webp
+     - https://source.fomal.cc/img/default_cover_25.webp
+     - https://source.fomal.cc/img/default_cover_26.webp
+     - https://source.fomal.cc/img/default_cover_27.webp
+     - https://source.fomal.cc/img/default_cover_28.webp
+     - https://source.fomal.cc/img/default_cover_29.webp
+     - https://source.fomal.cc/img/default_cover_30.webp
+     - https://source.fomal.cc/img/default_cover_31.webp
+     - https://source.fomal.cc/img/default_cover_32.webp
+     - https://source.fomal.cc/img/default_cover_33.webp
+     - https://source.fomal.cc/img/default_cover_34.webp
+     - https://source.fomal.cc/img/default_cover_34.webp
+     - https://source.fomal.cc/img/default_cover_36.webp
+     - https://source.fomal.cc/img/default_cover_37.webp
+     - https://source.fomal.cc/img/default_cover_38.webp
+     - https://source.fomal.cc/img/default_cover_39.webp
 
 # 替换损坏的图片
 error_img:
@@ -632,8 +646,9 @@ math:
 search:
   # 选择：algolia_search / local_search / docsearch
   # 如果不需要搜索功能，保持为空
-  use:
+  use: local_search
   placeholder:
+
 
   # Algolia 搜索
   algolia_search:
@@ -643,9 +658,9 @@ search:
   # 本地搜索
   local_search:
     # 页面加载时预加载搜索数据
-    preload: false
+    preload: true
     # 每篇文章显示的顶部 n 个搜索结果，设置为-1 显示所有结果
-    top_n_per_article: 1
+    top_n_per_article: -1
     # 将 HTML 字符串反转义为可读内容
     unescape: false
     # 启用搜索结果分页
@@ -930,13 +945,13 @@ google_adsense:
   # 是否启用
   enable: false
   # 是否自动投放广告
-  auto_ads: true
+  auto_ads: false
   # 广告脚本 URL
   js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
   # 客户 ID
   client:
   # 是否启用页面级广告
-  enable_page_level_ads: true
+  enable_page_level_ads: false
 
 # 手动插入广告配置，如果不需要广告则留空
 ad:
@@ -1331,6 +1346,8 @@ inject:
       })();
       </script>
     - <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    - <meta name="google-site-verification" content="jwTd3_zeLv7EanYGQGhVOPN5LSRUlYvf7SHqNw2uW18" />
+    - <meta name="baidu-site-verification" content="codeva-L91a4P40nQ" />
   #  - span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
   bottom:
     - <div class="aplayer no-destroy" data-id="17459984338" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-lrcType="-1"> </div>

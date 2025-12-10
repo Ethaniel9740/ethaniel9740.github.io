@@ -1,6 +1,7 @@
 ---
 title: C语言环境安装
 date: 2023-01-01 00:00:00
+updated: 2023-01-01 00:00:00
 categories: 'C'
 description: c代码运行环境配置
 copyright_author: Ethaniel
